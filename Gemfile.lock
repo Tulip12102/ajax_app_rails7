@@ -152,6 +152,8 @@ GEM
     nio4r (2.7.5)
     nokogiri (1.15.2-x86_64-darwin)
       racc (~> 1.4)
+    nokogiri (1.15.2-x86_64-linux)
+      racc (~> 1.4)
     pry (0.14.2)
       coderay (~> 1.1)
       method_source (~> 1.0)
@@ -229,8 +231,6 @@ GEM
       railties (>= 6.0.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
-    tzinfo-data (1.2026.1)
-      tzinfo (>= 1.0.0)
     web-console (4.2.0)
       actionview (>= 6.0.0)
       activemodel (>= 6.0.0)
@@ -253,6 +253,7 @@ GEM
 PLATFORMS
   x86_64-darwin-21
   x86_64-darwin-25
+  x86_64-linux
 
 DEPENDENCIES
   bootsnap
